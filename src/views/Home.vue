@@ -20,8 +20,8 @@ const projects = ref(proj);
           <h2 class="text-2xl font-bold uppercase">{{ project.name }}</h2>
           <p class="text-gray-500">{{ project.description }}</p>
           <div class="flex items-center justify-center gap-4">
-            <router-link :to="`/projects/${project.name}`"
-            
+            <router-link
+              :to="{ name: 'project', params: { projectId: project.name } }"
             >
               <button
                 class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full"
