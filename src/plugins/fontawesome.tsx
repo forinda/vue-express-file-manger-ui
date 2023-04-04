@@ -30,6 +30,7 @@ import {
   faTrash,
   faE,
   faDownload,
+  faFolderBlank,faFolderOpen,faFolderClosed, faFileUpload, faChevronLeft
 } from "@fortawesome/free-solid-svg-icons";
 // import fontawesome  brands icons
 import {
@@ -92,7 +93,8 @@ library.add(
   faEye,
   faPencilAlt,
   faTrash,
-  faDownload
+  faDownload,
+  faFolderBlank,faFolderClosed,faFolderOpen,faFileUpload,faChevronLeft
 );
 
 export default FontAwesomeIcon;
